@@ -1,0 +1,69 @@
+extends layout
+
+block content
+  #banner.page-header
+    .row
+      .col-lg-6
+        h1
+          | Loc8r
+          small &nbsp;Find pizza places near Canyon, Texas!
+  .row
+    .col-xs-12.col-sm-8
+      .row.list-group
+        .col-xs-12.list-group-item
+          h4
+            a(href='/pizza/info') La Bella Pizza
+            small &nbsp;
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star-empty
+              span.glyphicon.glyphicon-star-empty
+            span.badge.pull-right.badge-default 100m
+          p.address 700 23rd Ave., Canyon, TX
+          p
+            span.label.label-warning Group Sized Pizza
+            | &nbsp;
+            span.label.label-warning Gluten Free Option
+            | &nbsp;
+            span.label.label-warning Calzones
+            | &nbsp;
+        .col-xs-12.list-group-item
+          h4
+            a(href='/pizza/info') Pizza Hut
+            small &nbsp;
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star-empty
+            span.badge.pull-right.badge-default 200m
+          p.address 110 23rd St. Canyon, TX
+          p
+            span.label.label-warning Premium pizza
+            | &nbsp;
+            span.label.label-warning Meat Toppings
+            | &nbsp;
+            span.label.label-warning Vegetarian Options
+            | &nbsp;
+        .col-xs-12.list-group-item
+          h4
+            a(href='/pizza/info') Domino's
+            small &nbsp;
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star-empty
+              span.glyphicon.glyphicon-star-empty
+              span.glyphicon.glyphicon-star-empty
+            span.badge.pull-right.badge-default 250m
+          p.address 301 N23rd St Ste B, Canyon, TX
+          p
+            span.label.label-warning Premium Pizza
+            | &nbsp;
+            span.label.label-warning Gluten Free Options
+            | &nbsp;
+            span.label.label-warning Vegetarian Options
+            | &nbsp;
+    .col-xs-12.col-sm-4
+      p.lead
+        | Looking for good pizza? Gluten Free but still craving the pizza? Let the pizza locator help you find the perfect pizzeria in Canyon to satisfy your cravings!
