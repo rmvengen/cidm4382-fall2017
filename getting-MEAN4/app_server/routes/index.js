@@ -15,7 +15,13 @@ router.get('/location/review/new', ctrlLocations.addReview);
 //I added below here
 /* Pizza Locations pages */
 router.get('/pizza', ctrlPizzas.pizzahomelist);
-router.get('/pizza/info', ctrlPizzas.pizzaInfo);
+//router.get('/pizza/info', ctrlPizzas.pizzaInfo);
+router.get('/pizza/labella', ctrlPizzas.pizzaInfo);
+//something wrong here.....
+router.get('/pizza/pizzahut', ctrlPizzas.pizzaInfo2)
+//router.get('/pizza/info2', ctrlPizzas.pizzaInfo);
+//router.get('/pizza/info2', ctrlPizzas.pizzaInfo2);
+router.get('/pizza/dominos', ctrlPizzas.pizzaInfo3);
 router.get('/pizza/review/new', ctrlPizzas.pizzaaddReview);
 
 /* Other pages */
